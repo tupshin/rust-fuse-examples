@@ -1,0 +1,10 @@
+[package]
+name = "rust-fuse-examples"
+version = "0.1.0"
+authors = [ "tupshin@tupshin.com" ]
+
+[[bin]]
+name = "hello" # the name of the executable to generate
+
+[dependencies.rust-fuse]
+git = "https://github.com/tupshin/rust-fuse"
